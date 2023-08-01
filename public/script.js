@@ -80,6 +80,10 @@ $(document).ready(function(){
         clickMe();
     })
     addCards(cardList);
+    $('.modal').modal();
+    $('#formSubmit').on('click', function(){
+        submitForm();
+    });
 });
     
 
